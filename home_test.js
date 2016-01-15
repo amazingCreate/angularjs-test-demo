@@ -8,7 +8,7 @@ describe('MainCtrl', function() {
 			$scope: scope
 		});
 	}));
-	it('should have var text ="hello world!"',function(){
-		expect(scope.text).toBe('Hello World');
+	it('should have var text ="hello world!"', function() {
+		expect(scope.text).toBe('Hello World!');
 	});
 })

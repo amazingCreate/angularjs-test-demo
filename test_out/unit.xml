@@ -1,20 +1,24 @@
 <?xml version="1.0"?>
 <testsuites>
-  <testsuite name="Chrome 44.0.2403 (Windows 10 0.0.0)" package="unit" timestamp="2016-01-14T06:50:05" id="0" hostname="tianxiangbing">
+  <testsuite name="Chrome 44.0.2403 (Windows 10 0.0.0)" package="unit" timestamp="2016-01-15T09:13:03" id="0" hostname="tianxiangbing">
     <properties>
       <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36"/>
     </properties>
   </testsuite>
-  <testsuite name="Chrome 44.0.2403 (Windows 10 0.0.0)" package="unit" timestamp="2016-01-14T06:50:05" id="0" hostname="tianxiangbing" tests="5" errors="0" failures="0" time="0.03">
+  <testsuite name="Chrome 44.0.2403 (Windows 10 0.0.0)" package="unit" timestamp="2016-01-15T09:13:03" id="0" hostname="tianxiangbing" tests="7" errors="0" failures="0" time="0.029">
     <properties>
       <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36"/>
     </properties>
-    <testcase name="should have var text =&quot;hello world!&quot;" time="0.022" classname="unit Chrome 44.0.2403 (Windows 10 0.0.0).MainCtrl"/>
+    <testcase name="should have var text =&quot;hello world!&quot;" time="0.008" classname="unit Chrome 44.0.2403 (Windows 10 0.0.0).MainCtrl"/>
+    <testcase name="should have variable text = &quot;Hello World!&quot;" time="0.006" classname="unit Chrome 44.0.2403 (Windows 10 0.0.0).MainCtrl"/>
+    <testcase name="should fetch list of users" time="0.005" classname="unit Chrome 44.0.2403 (Windows 10 0.0.0).MainCtrl"/>
     <testcase name="should controller is defined ..." time="0.003" classname="unit Chrome 44.0.2403 (Windows 10 0.0.0).simpleApp myApp controller"/>
-    <testcase name="reverse word" time="0.001" classname="unit Chrome 44.0.2403 (Windows 10 0.0.0).A suite of basic functions"/>
-    <testcase name="should ..." time="0.002" classname="unit Chrome 44.0.2403 (Windows 10 0.0.0).myApp module"/>
-    <testcase name="should have var text =&quot;hello world.&quot;" time="0.002" classname="unit Chrome 44.0.2403 (Windows 10 0.0.0).myApp module"/>
-    <system-out><![CDATA[
+    <testcase name="reverse word" time="0" classname="unit Chrome 44.0.2403 (Windows 10 0.0.0).A suite of basic functions"/>
+    <testcase name="should ..." time="0.004" classname="unit Chrome 44.0.2403 (Windows 10 0.0.0).myApp module"/>
+    <testcase name="should have var text =&quot;hello world.&quot;" time="0.003" classname="unit Chrome 44.0.2403 (Windows 10 0.0.0).myApp module"/>
+    <system-out><![CDATA[Chrome 44.0.2403 (Windows 10 0.0.0) LOG: 'Bob'
+,Chrome 44.0.2403 (Windows 10 0.0.0) LOG: 'Jane'
+
 ]]></system-out>
     <system-err/>
   </testsuite>
